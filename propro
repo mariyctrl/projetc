@@ -1,0 +1,140 @@
+ contadores[0].textContent = calculaTempo(tempoObjetivo1);
+contadores[0].textContent = calculaTempo(tempoObjetivo1);
+
+function calculaTempo(tempoObjetivo) {
+  let tempoAtual = new Date();
+  let tempoFinal = tempoObjetivo - tempoAtual;
+  let segundos = tempoFinal / 1000;
+  return segundos;
+}
+function calculaTempo(tempoObjetivo) {
+  let tempoAtual = new Date();
+  let tempoFinal = tempoObjetivo - tempoAtual;
+  let segundos = Math.floor(tempoFinal / 1000);
+  return segundos;
+}
+function calculaTempo(tempoObjetivo) {
+  let tempoAtual = new Date();
+  let tempoFinal = tempoObjetivo - tempoAtual;
+  let segundos = Math.floor(tempoFinal / 1000);
+  let minutos = Math.floor(segundos / 60);
+  return minutos;
+}
+function calculaTempo(tempoObjetivo) {
+  let tempoAtual = new Date();
+  let tempoFinal = tempoObjetivo - tempoAtual;
+  let segundos = Math.floor(tempoFinal / 1000);
+  let minutos = Math.floor(segundos / 60);
+  let horas = Math.floor(minutos / 60);
+  return horas;
+}
+function calculaTempo(tempoObjetivo) {
+  let tempoAtual = new Date();
+  let tempoFinal = tempoObjetivo - tempoAtual;
+  let segundos = Math.floor(tempoFinal / 1000);
+  let minutos = Math.floor(segundos / 60);
+  let horas = Math.floor(minutos / 60);
+  let dias = Math.floor(horas / 24);
+  return dias;
+}
+const tempoObjetivo1 = new Date("2023-10-05T00:00:00");
+
+function calculaTempo(tempoObjetivo) {
+  // código omitido…
+  return dias + horas;
+}
+function calculaTempo(tempoObjetivo) {
+  // código omitido…
+  return dias + "dias" + horas;
+}
+function calculaTempo(tempoObjetivo) {
+  // código omitido…
+  return dias + " dias " + horas;
+}
+function calculaTempo(tempoObjetivo) {
+  // código omitido…
+  return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
+}
+function calculaTempo(tempoObjetivo) {
+  // código omitido…
+  segundos %= 60;
+  return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
+}
+function calculaTempo(tempoObjetivo) {
+    let tempoAtual = new Date();
+    let tempoFinal = tempoObjetivo - tempoAtual;
+    let segundos = Math.floor(tempoFinal / 1000);
+    let minutos = Math.floor(segundos / 60);
+    let horas = Math.floor(minutos / 60);
+    let dias = Math.floor(horas / 24);
+
+    segundos %= 60;
+    minutos %= 60;
+    horas %= 24;
+ 
+ return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
+}
+.contador{
+    font-size: 20px;
+    text-align: center;
+}
+contadores[0].textContent = calculaTempo(tempoObjetivo1);
+function calculaTempo(tempoObjetivo) {
+  let tempoAtual = new Date();
+  let tempoFinal = tempoObjetivo - tempoAtual;
+}
+let segundos = Math.floor(tempoFinal / 1000);
+let minutos = Math.floor(segundos / 60);
+let horas = Math.floor(minutos / 60);
+let dias = Math.floor(horas / 24);
+return (
+  dias +
+  " dias " +
+  horas +
+  " horas " +
+  minutos +
+  " minutos " +
+  segundos +
+  " segundos"
+);
+function calculaTempo(tempoObjetivo) {
+  let tempoAtual = new Date();
+  let tempoFinal = tempoObjetivo - tempoAtual;
+  let segundos = Math.floor(tempoFinal / 1000);
+  let minutos = Math.floor(segundos / 60);
+  let horas = Math.floor(minutos / 60);
+  let dias = Math.floor(horas / 24);
+  return (
+    dias +
+    " dias " +
+    horas +
+    " horas " +
+    minutos +
+    " minutos " +
+    segundos +
+    " segundos"
+  );
+}
+segundos %= 60;
+minutos %= 60;
+horas %= 24;
+.contador {
+  font-size: 20px;
+  text-align: center;
+}
+function calculaHorasRestantes(tempoObjetivo) {
+  let tempoAtual = new Date();
+  let tempoFinal = tempoObjetivo - tempoAtual;
+
+  let segundos = Math.floor(tempoFinal / 1000);
+  let minutos = Math.floor(segundos / 60);
+  let horas = Math.floor(minutos / 60);
+
+  return horas + " horas";
+}
+for (let i = -2; i < 3; i++) {
+  console.log(i);
+}
+segundos =130; 
+minutos = Math.floor(segundos / 60; // resultado esperado: 2
+segundos %= 60; // resultados esperado : 10
